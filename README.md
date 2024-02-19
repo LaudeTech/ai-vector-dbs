@@ -4,7 +4,15 @@
 
 El sistema requiere de docker y python3, que se suponen ya instalados.
 
-Si no se dispone de tarjeta gráfica NVIDIA será necesario cambiar "cuda" por "cpu" en los notebooks donde corresponda.
+Para abrir los notebooks existen múltiples opciones, por ejemplo [VS Code](https://code.visualstudio.com/) con la extensión de [Python](https://marketplace.visualstudio.com/items?itemName=ms-python.python) y [Jupyter](https://marketplace.visualstudio.com/items?itemName=ms-toolsai.jupyter).
+
+> Si no se dispone de tarjeta gráfica NVIDIA será necesario cambiar "cuda" por "cpu" en los notebooks donde corresponda.
+
+Los ejercicio requieren una cuenta en OpenAI para obtener una API Key. La [API Key](https://platform.openai.com/api-keys) se debe guardar en un fichero .env en la raíz del proyecto con el siguiente formato:
+
+```shellscript
+OPENAI_API_KEY=sk-cccx7u1...mWtdU3rso1vM
+```
 
 Levantamos Qdrant en local con docker
 
