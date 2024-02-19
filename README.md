@@ -30,10 +30,12 @@ python -m pip install -r requirements.txt
 1. Carga de un dataset de películas de star wars (chunks)
 1. Búsqueda semántica de películas con libs opensource
 1. Introducción OpenAI API
-1. Carga de dataset con OpenAI Embeddings API
-1. Búsqueda semántica de películas con Qdrant+OpenAI 
+1. Carga de dataset con OpenAI Embeddings API+LangChain
+1. Búsqueda semántica de películas con LangChain+Qdrant+OpenAI 
 1. Uso de LangChain para chat conversacional
-1. Añadimos argumento de película original, Rey Legacy.
+1. Creamos contenido original, película Rey Legacy.
+1. Verificamos que el chat no conoce información sobre la nueva película.
+1. Cargamos la nueva película en Qdrant (my_movie).
 1. Usamos el chat para preguntar por la nueva pelicula.
 1. Ampliamos la información en Qdrant para preguntar en el chat.
 1. Conclusiones y preguntas
