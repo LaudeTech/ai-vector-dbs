@@ -1,0 +1,12 @@
+numpy
+pandas
+pyarrow
+sentence-transformers
+qdrant-client[fastembed]
+openai
+python-dotenv
+langchain
+
+jupyter_contrib_nbextensions
+ipywidgets
+tqdm
