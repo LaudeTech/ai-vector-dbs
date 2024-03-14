@@ -3,6 +3,7 @@ pandas
 pyarrow
 sentence-transformers
 qdrant-client[fastembed]
+chromadb
 openai
 python-dotenv
 langchain
